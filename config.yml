@@ -37,7 +37,7 @@ params:
   timezoneString: " America/New_York"
 
   # Path to logo image from the /static folder.
-  logo: "/images/clearstatus.svg"
+  logo: "/images/nick.tv_banner_50_percent.jpg"
 
   # favicon
   icon: "/images/clearstatus.png"
