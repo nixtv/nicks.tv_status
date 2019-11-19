@@ -1,63 +1,32 @@
-############################################################
-## Hugo ClearStatus config
-############################################################
-
-# Complete page title
 title: Nicks.TV Status Page
-
-# Language config
+baseURL: 'https://status.nicks.tv'
 languageCode: en
-
-############################################################
-## More default config. in /config/_default/config.yml
-############################################################
-
-
-############################################################
-## Status default config. Valid for ALL languages.
-############################################################
-
 params:
-  systems:
-    - name: Media
-      description: Any streaming issues will be posted here
-      #link: https://www.example.com/
-    - name: Hosting
-      description: Web Hosting status will be here
-      link: https://nicks.website/
-
-  # dateFormat Default: "January 2, 2006 at 3:04 PM"
-  # shortDateFormat Default: "15:04 — Jan 2"
-  dateFormat: "January 2, 2006 at 3:04 PM"
-  shortDateFormat: "15:04 — Jan 2"
-  # This string will be displayed after each time displayed
-  # Set it for instance to " UTC" to indicate UTC times
-  # or a specific time zone, ie " America/New_York"
-  # You can also instead used a translated string per language
-  timezoneString: " America/New_York"
-
-  # Path to logo image from the /static folder.
-  logo: "/images/nick.tv_banner_50_percent.jpg"
-
-  # favicon
-  icon: "/images/clearstatus.png"
-  iconType: "image/png"
-
-  # Descriptions
-  meta_description: "This status page provides updated information about our systems normal operation, incidents that may happen and their resolution."
-  description_footer: "<a class='text-grey-darkest' title='Visit https://github.com/weeblrpress/clearstatus' href='https://github.com/weeblrpress/clearstatus'>ClearStatus Page Link/a> provides an how to on how to make such an awesome status page."
-  description_header: "Information about <a class='text-grey-darkest' title='Visit nicks.tv' href='https://nicks.tv/'></a> systems operations.<br />or subscribe to <a class='text-grey-darkest' href='%s' >RSS</a><br />to be alerted of new events."
-
-  copyrightHolder: "Nicks.TV"
-
-  # Disqus commenting per issue: set your Disqus shortname here
-  # Leave empty for no discussion at all.
-  # You can also enable/disable discussions per issue
-  disqusShortname:
-
-  # Layout
+  copyrightHolder: Nicks.TV
+  dateFormat: 'January 2, 2006 at 3:04 PM'
+  description_footer: >-
+    <a class='text-grey-darkest' title='Visit
+    https://github.com/weeblrpress/clearstatus'
+    href='https://github.com/weeblrpress/clearstatus'>ClearStatus Page Link</a>
+    provides an how to on how to make such an awesome status page.
+  description_header: >-
+    Information about <a class='text-grey-darkest' title='Visit nicks.tv'
+    href='https://nicks.tv/'></a> systems operations.<br />or subscribe to <a
+    class='text-grey-darkest' href='%s' >RSS</a><br />to be alerted of new
+    events.
   eventsPerPage: 10
-
-############################################################
-## More default config. in /config/_default/params.yml
-############################################################
+  groups:
+    - Hosting
+    - Media
+  logo: /images/nick.tv_banner_50_percent.jpg
+  meta_description: >-
+    This status page provides updated information about our systems normal
+    operation, incidents that may happen and their resolution.
+  shortDateFormat: '15:04 — Jan 2'
+  systems:
+    - description: ''
+      name: Media
+    - description: ''
+      link: 'https://nicks.website/'
+      name: Hosting
+  timezoneString: ' America/New_York'
