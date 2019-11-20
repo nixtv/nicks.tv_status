@@ -21,10 +21,16 @@ params:
   shortDateFormat: '15:04 — Jan 2'
   systems:
     - description: ''
-      group: Media
-      name: Media Streaming
-    - description: ''
       group: Hosting
       link: 'https://nicks.website/'
       name: Web Hosting
+    - group: Hosting
+      link: 'https://allofthe.email'
+      name: eMail
+    - group: Media
+      name: Plex
+    - group: Media
+      name: JellyFin
+    - group: Media
+      name: Requests
   timezoneString: ' America/New_York'
