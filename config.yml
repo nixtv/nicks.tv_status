@@ -21,8 +21,10 @@ params:
   shortDateFormat: '15:04 — Jan 2'
   systems:
     - description: ''
-      name: Media
+      group: Media
+      name: Media Streaming
     - description: ''
+      group: Hosting
       link: 'https://nicks.website/'
-      name: Hosting
+      name: Web Hosting
   timezoneString: ' America/New_York'
