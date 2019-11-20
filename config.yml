@@ -25,7 +25,7 @@ params:
       link: 'https://nicks.website/'
       name: Web Hosting
     - group: Hosting
-      link: 'https://allofthe.email'
+      link: 'https://mail.allofthe.email'
       name: eMail
     - group: Media
       name: Plex
