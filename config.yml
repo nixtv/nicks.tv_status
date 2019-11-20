@@ -18,7 +18,7 @@ params:
   meta_description: >-
     This status page provides updated information about our systems normal
     operation, incidents that may happen and their resolution.
-  shortDateFormat: '15:04 — Jan 2'
+  shortDateFormat: '15:04 | Jan 2 2006'
   systems:
     - description: ''
       group: Hosting
