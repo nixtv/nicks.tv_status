@@ -17,4 +17,8 @@ affected:
 twitterFeed: ''
 enableComments: false
 ---
+It appears the colo provider is having intermittent networking issues.
+
+
+
 It seems to have been resolved.
