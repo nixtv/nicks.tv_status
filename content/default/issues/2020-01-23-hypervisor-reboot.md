@@ -2,10 +2,10 @@
 section: issue
 title: Hypervisor Reboot
 date: 2020-01-23T17:31:08.185Z
-status: in_progress
+status: resolved
 pinned: ''
-current_severity: down
-max_severity: down
+current_severity: ok
+max_severity: ok
 duration: ''
 resolved_on: ''
 affected:
